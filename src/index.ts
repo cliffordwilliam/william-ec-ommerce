@@ -3,7 +3,7 @@ import { db } from "./lib/db";
 
 require("dotenv").config();
 
-const app = express();
+export const app = express();
 
 const PORT = 3000;
 
